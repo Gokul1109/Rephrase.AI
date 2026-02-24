@@ -1,0 +1,592 @@
+[
+  {
+    "id": "msg-001",
+    "timestamp": "2025-12-20T08:45:00Z",
+    "sender": "jane.smith@company.com",
+    "receiver": "john.doe@company.com",
+    "message": "Good morning! Ready for the standup?",
+    "sentiment": "positive",
+    "tone": "friendly"
+  },
+  {
+    "id": "msg-002",
+    "timestamp": "2025-12-20T08:46:00Z",
+    "sender": "john.doe@company.com",
+    "receiver": "jane.smith@company.com",
+    "message": "Yes! Just finishing up the notes",
+    "sentiment": "positive",
+    "tone": "casual"
+  },
+  {
+    "id": "msg-003",
+    "timestamp": "2025-12-20T09:30:00Z",
+    "sender": "tech.lead@company.com",
+    "receiver": "john.doe@company.com",
+    "message": "Can you give me an update on PROJ-102?",
+    "sentiment": "neutral",
+    "tone": "professional"
+  },
+  {
+    "id": "msg-004",
+    "timestamp": "2025-12-20T09:35:00Z",
+    "sender": "john.doe@company.com",
+    "receiver": "tech.lead@company.com",
+    "message": "Still investigating the pointer issue. Should have it resolved today.",
+    "sentiment": "neutral",
+    "tone": "professional"
+  },
+  {
+    "id": "msg-005",
+    "timestamp": "2025-12-20T10:15:00Z",
+    "sender": "sarah.designer@company.com",
+    "receiver": "john.doe@company.com",
+    "message": "Hey! Do you have a moment to review the mockups?",
+    "sentiment": "positive",
+    "tone": "friendly"
+  },
+  {
+    "id": "msg-006",
+    "timestamp": "2025-12-20T10:17:00Z",
+    "sender": "john.doe@company.com",
+    "receiver": "sarah.designer@company.com",
+    "message": "I'm in sprint planning right now. Can we connect after 3 PM?",
+    "sentiment": "neutral",
+    "tone": "professional"
+  },
+  {
+    "id": "msg-007",
+    "timestamp": "2025-12-20T11:45:00Z",
+    "sender": "mike.backend@company.com",
+    "receiver": "john.doe@company.com",
+    "message": "Quick question about the auth module implementation",
+    "sentiment": "neutral",
+    "tone": "professional"
+  },
+  {
+    "id": "msg-008",
+    "timestamp": "2025-12-20T11:50:00Z",
+    "sender": "john.doe@company.com",
+    "receiver": "mike.backend@company.com",
+    "message": "Sure! What do you need help with?",
+    "sentiment": "positive",
+    "tone": "helpful"
+  },
+  {
+    "id": "msg-009",
+    "timestamp": "2025-12-20T13:30:00Z",
+    "sender": "product.manager@company.com",
+    "receiver": "john.doe@company.com",
+    "message": "Need the authentication module done by today. It's blocking other work.",
+    "sentiment": "negative",
+    "tone": "urgent"
+  },
+  {
+    "id": "msg-010",
+    "timestamp": "2025-12-20T13:35:00Z",
+    "sender": "john.doe@company.com",
+    "receiver": "product.manager@company.com",
+    "message": "Understood. I'm prioritizing it this afternoon. ETA is 5 PM.",
+    "sentiment": "neutral",
+    "tone": "professional"
+  },
+  {
+    "sender": "John Doe",
+    "message": "hy",
+    "timestamp": "2025-12-20T19:49:29.223737"
+  },
+  {
+    "sender": "John Doe",
+    "message": "how are u",
+    "timestamp": "2025-12-20T19:49:44.554627"
+  },
+  {
+    "sender": "default_user",
+    "message": "how are u",
+    "timestamp": "2025-12-20T19:49:45.802653"
+  },
+  {
+    "sender": "default_user",
+    "message": "how are ",
+    "timestamp": "2025-12-20T19:49:46.218967"
+  },
+  {
+    "sender": "default_user",
+    "message": "how ",
+    "timestamp": "2025-12-20T19:49:46.801566"
+  },
+  {
+    "sender": "John Doe",
+    "message": "hey how are u",
+    "timestamp": "2025-12-20T19:51:21.031044"
+  },
+  {
+    "sender": "John Doe",
+    "message": "hi",
+    "timestamp": "2025-12-30T01:14:24.078382"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "hii",
+    "timestamp": "2025-12-30T01:14:35.976693"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "a",
+    "timestamp": "2025-12-30T01:17:56.119524"
+  },
+  {
+    "sender": "John Doe",
+    "message": "ji",
+    "timestamp": "2025-12-30T01:18:33.039064"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "hi",
+    "timestamp": "2025-12-30T01:18:41.142282"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "Hi Sarah, are you free to discuss the login issue?",
+    "timestamp": "2025-12-30T01:53:28.379164"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "Hi John, do you have a moment to talk about the authentication issue?",
+    "timestamp": "2025-12-30T01:54:59.284304"
+  },
+  {
+    "sender": "John Doe",
+    "message": "Hi Sarah, yes, I am available now.",
+    "timestamp": "2025-12-30T01:55:09.835875"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "Some users are reporting login failures since this morning.",
+    "timestamp": "2025-12-30T01:55:17.668848"
+  },
+  {
+    "sender": "John Doe",
+    "message": "I have been looking into it. It seems to be related to the token refresh logic.",
+    "timestamp": "2025-12-30T01:55:36.407631"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "Is this blocking the release we planned for today?",
+    "timestamp": "2025-12-30T01:55:45.948872"
+  },
+  {
+    "sender": "John Doe",
+    "message": "Yes, we cannot proceed with the release until the issue is fixed.",
+    "timestamp": "2025-12-30T01:55:53.943418"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "Do you have an estimate for when it will be resolved?",
+    "timestamp": "2025-12-30T01:56:33.959498"
+  },
+  {
+    "sender": "John Doe",
+    "message": "I am working on a fix and expect it to be done by 2 PM.",
+    "timestamp": "2025-12-30T01:56:46.312899"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "Okay, please share an update once the fix is tested.",
+    "timestamp": "2025-12-30T01:56:54.469658"
+  },
+  {
+    "sender": "John Doe",
+    "message": "Sure, I will keep you posted.",
+    "timestamp": "2025-12-30T01:57:06.312876"
+  },
+  {
+    "sender": "user",
+    "message": "Is the login failure issue sorted?",
+    "timestamp": "2025-12-30T01:20:38.371136+00:00"
+  },
+  {
+    "sender": "user",
+    "message": "when can you finish it?",
+    "timestamp": "2025-12-30T01:21:11.036426+00:00"
+  },
+  {
+    "sender": "user",
+    "message": "any update?",
+    "timestamp": "2025-12-30T01:21:57.951712+00:00"
+  },
+  {
+    "sender": "user",
+    "message": "when will it be fnished ?",
+    "timestamp": "2025-12-30T01:22:09.729643+00:00"
+  },
+  {
+    "sender": "John Doe",
+    "message": "ok can iohjrfr",
+    "timestamp": "2025-12-30T02:41:32.071304"
+  },
+  {
+    "sender": "John Doe",
+    "message": "hello",
+    "timestamp": "2025-12-30T02:49:19.262472"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "hi",
+    "timestamp": "2025-12-30T02:49:23.599452"
+  },
+  {
+    "sender": "John Doe",
+    "message": "hi",
+    "timestamp": "2025-12-30T02:57:02.777362"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "hi",
+    "timestamp": "2025-12-30T02:57:07.336429"
+  },
+  {
+    "sender": "John Doe",
+    "message": "hello",
+    "timestamp": "2025-12-30T03:05:54.098523"
+  },
+  {
+    "sender": "John Doe",
+    "message": "hello",
+    "timestamp": "2025-12-30T03:20:23.132728"
+  },
+  {
+    "sender": "John Doe",
+    "message": "hi",
+    "timestamp": "2025-12-30T03:26:11.328670"
+  },
+  {
+    "sender": "John Doe",
+    "message": "hello",
+    "timestamp": "2025-12-30T03:26:24.950172"
+  },
+  {
+    "sender": "John Doe",
+    "message": "hi ",
+    "timestamp": "2025-12-30T10:22:58.135186"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "\"Could you please provide an update on PROJ-101, PROJ-102, and PROJ-105?\"",
+    "timestamp": "2025-12-30T10:23:19.632970"
+  },
+  {
+    "sender": "John Doe",
+    "message": "hi why there is a login issue",
+    "timestamp": "2025-12-30T12:34:40.504281"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "Some users are reporting login failures since this morning",
+    "timestamp": "2025-12-30T12:39:59.355545"
+  },
+  {
+    "sender": "John Doe",
+    "message": "I have been looking into it and it seems related to the token refresh logic",
+    "timestamp": "2025-12-30T12:40:15.990033"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "Do you think we can resolve this before end of day",
+    "timestamp": "2025-12-30T12:40:35.372039"
+  },
+  {
+    "sender": "John Doe",
+    "message": "I am working on a fix and will update you once it is tested",
+    "timestamp": "2025-12-30T12:40:47.127472"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "The new dashboard feature is ready for internal review",
+    "timestamp": "2025-12-30T12:45:57.042770"
+  },
+  {
+    "sender": "John Doe",
+    "message": "Great, have all the analytics widgets been integrated?",
+    "timestamp": "2025-12-30T12:46:04.903597"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "Yes, the charts and filters are now connected to live data.",
+    "timestamp": "2025-12-30T12:46:14.054829"
+  },
+  {
+    "sender": "John Doe",
+    "message": "Did we verify the performance impact on older devices?",
+    "timestamp": "2025-12-30T12:46:22.731200"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "Not yet, QA is scheduled to run those tests this afternoon.",
+    "timestamp": "2025-12-30T12:46:30.162542"
+  },
+  {
+    "sender": "John Doe",
+    "message": "Okay, we should wait for their feedback before enabling it for everyone.",
+    "timestamp": "2025-12-30T12:46:37.873149"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "Agreed, once QA signs off we can do a phased rollout.",
+    "timestamp": "2025-12-30T12:46:52.274020"
+  },
+  {
+    "sender": "John Doe",
+    "message": "Let us start with internal users before expanding it further.",
+    "timestamp": "2025-12-30T12:47:02.152812"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "I will prepare a short rollout plan and share it with the team.",
+    "timestamp": "2025-12-30T12:47:11.912004"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "The new dashboard feature is ready for internal review",
+    "timestamp": "2025-12-31T13:42:52.156088"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "Great, have all the analytics widgets been integrated?",
+    "timestamp": "2025-12-31T13:43:00.614197"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "The new dashboard feature is ready for internal review.",
+    "timestamp": "2025-12-31T13:43:29.804776"
+  },
+  {
+    "sender": "John Doe",
+    "message": "Great, have all the analytics widgets been integrated?",
+    "timestamp": "2025-12-31T13:43:38.611889"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "Yes, the charts and filters are now connected to live data.",
+    "timestamp": "2025-12-31T13:43:48.131317"
+  },
+  {
+    "sender": "John Doe",
+    "message": "Did we verify the performance impact on older devices?",
+    "timestamp": "2025-12-31T13:43:56.088359"
+  },
+  {
+    "sender": "John Doe",
+    "message": "Not yet, QA is scheduled to run those tests this afternoon.",
+    "timestamp": "2025-12-31T13:44:04.218072"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "Not yet, QA is scheduled to run those tests this afternoon.",
+    "timestamp": "2025-12-31T13:44:09.609149"
+  },
+  {
+    "sender": "John Doe",
+    "message": "Okay, we should wait for their feedback before enabling it for everyone.",
+    "timestamp": "2025-12-31T13:44:17.810500"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "Agreed, once QA signs off we can do a phased rollout.",
+    "timestamp": "2025-12-31T13:44:30.201214"
+  },
+  {
+    "sender": "John Doe",
+    "message": "Let us start with internal users before expanding it further.",
+    "timestamp": "2025-12-31T13:44:37.852760"
+  },
+  {
+    "sender": "John Doe",
+    "message": "hello",
+    "timestamp": "2025-12-31T13:45:28.099587"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "hi",
+    "timestamp": "2025-12-31T13:45:42.840991"
+  },
+  {
+    "sender": "John Doe",
+    "message": "\"I would like to discuss the upcoming project deadline with you regarding PROJ-101.",
+    "timestamp": "2025-12-31T13:47:18.094800"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "zea sure",
+    "timestamp": "2025-12-31T13:47:24.489086"
+  },
+  {
+    "sender": "John Doe",
+    "message": "there is some login issue",
+    "timestamp": "2025-12-31T13:55:06.576986"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "we are also encountering,will try to fix it bz 5 p.m",
+    "timestamp": "2025-12-31T13:55:45.239432"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "update?",
+    "timestamp": "2026-01-11T21:41:52.577817"
+  },
+  {
+    "sender": "John Doe",
+    "message": "working on it",
+    "timestamp": "2026-01-11T21:42:03.041520"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "did you find the issue / problem ?",
+    "timestamp": "2026-01-11T21:42:24.524356"
+  },
+  {
+    "sender": "John Doe",
+    "message": "found the minor issue still trying to find the major one ",
+    "timestamp": "2026-01-11T21:42:42.059579"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "when will it be completed?",
+    "timestamp": "2026-01-11T21:42:55.478700"
+  },
+  {
+    "sender": "John Doe",
+    "message": "it will be done by 5 pm ",
+    "timestamp": "2026-01-11T21:43:03.499700"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "how is the project going ?",
+    "timestamp": "2026-01-11T21:59:31.572431"
+  },
+  {
+    "sender": "John Doe",
+    "message": "it is going great . We are in track ",
+    "timestamp": "2026-01-11T21:59:44.030664"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "Please tell you availability?",
+    "timestamp": "2026-01-11T22:02:02.680017"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "hello john",
+    "timestamp": "2026-01-12T14:04:17.058959"
+  },
+  {
+    "sender": "John Doe",
+    "message": "hi sarah",
+    "timestamp": "2026-01-12T14:04:25.550597"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "is login issue fixed ?",
+    "timestamp": "2026-01-12T14:04:35.024913"
+  },
+  {
+    "sender": "John Doe",
+    "message": "it will be done by 3pm today",
+    "timestamp": "2026-01-12T14:04:44.391673"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "Can we schedule a meeting to discuss the project tomorrow at 10 AM?",
+    "timestamp": "2026-01-12T14:06:05.146939"
+  },
+  {
+    "sender": "John Doe",
+    "message": "Please provide an update on PROJ-101 by the end of the day.",
+    "timestamp": "2026-01-12T14:07:35.399122"
+  },
+  {
+    "sender": "John Doe",
+    "message": "i am not available tommorow . can we schedule it today ",
+    "timestamp": "2026-01-12T14:14:30.779025"
+  },
+  {
+    "sender": "John Doe",
+    "message": "hi",
+    "timestamp": "2026-02-20T19:59:15.452942"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "hello",
+    "timestamp": "2026-02-20T19:59:29.640979"
+  },
+  {
+    "sender": "John Doe",
+    "message": "hii",
+    "timestamp": "2026-02-20T20:14:45.416115"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "hey",
+    "timestamp": "2026-02-20T20:15:02.441095"
+  },
+  {
+    "sender": "John Doe",
+    "message": "hello",
+    "timestamp": "2026-02-20T20:22:52.140202"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "hw are u",
+    "timestamp": "2026-02-20T20:23:11.675737"
+  },
+  {
+    "sender": "John Doe",
+    "message": "hi",
+    "timestamp": "2026-02-20T20:37:11.294397"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "hi",
+    "timestamp": "2026-02-20T20:37:14.585848"
+  },
+  {
+    "sender": "John Doe",
+    "message": "hello",
+    "timestamp": "2026-02-20T20:48:51.118949"
+  },
+  {
+    "sender": "John Doe",
+    "message": "Please provide an update on the progress of tasks PROJ-101, PROJ-102, and PROJ-105 by the end of the day. Thank you.",
+    "timestamp": "2026-02-20T20:53:14.983883"
+  },
+  {
+    "sender": "John Doe",
+    "message": "hi",
+    "timestamp": "2026-02-20T20:53:18.930553"
+  },
+  {
+    "sender": "John Doe",
+    "message": "\"Are you for real?\"",
+    "timestamp": "2026-02-20T20:54:05.934282"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "what",
+    "timestamp": "2026-02-20T20:54:12.834258"
+  },
+  {
+    "sender": "John Doe",
+    "message": "Could we schedule a meeting at 3:00 PM tomorrow in the conference room to discuss the project proposal? Also, could we discuss PROJ-101, PROJ-102, or PROJ-105 during the meeting?",
+    "timestamp": "2026-02-20T20:54:33.004892"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "Could you please provide more context or details about your message?",
+    "timestamp": "2026-02-20T20:54:50.446458"
+  },
+  {
+    "sender": "Sarah Smith",
+    "message": "hi",
+    "timestamp": "2026-02-22T18:17:05.784906"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "evt-001",
+    "title": "Daily Standup",
+    "start_time": "09:00 AM",
+    "end_time": "09:15 AM",
+    "date": "2026-01-12",
+    "type": "meeting",
+    "attendees": ["john.doe@company.com", "team@company.com"],
+    "location": "Zoom",
+    "status": "confirmed"
+  },
+  {
+    "id": "evt-002",
+    "title": "Sprint Planning",
+    "start_time": "10:00 AM",
+    "end_time": "11:30 AM",
+    "date": "2026-01-18",
+    "type": "meeting",
+    "attendees": [
+      "john.doe@company.com",
+      "product.manager@company.com",
+      "team@company.com"
+    ],
+    "location": "Teams",
+    "status": "confirmed"
+  },
+  {
+    "id": "evt-003",
+    "title": "Focus Time - Code Review",
+    "start_time": "11:30 AM",
+    "end_time": "01:00 PM",
+    "date": "2026-01-11",
+    "type": "focus_time",
+    "attendees": ["john.doe@company.com"],
+    "location": null,
+    "status": "busy"
+  },
+  {
+    "id": "evt-004",
+    "title": "Lunch Break",
+    "start_time": "01:00 PM",
+    "end_time": "02:00 PM",
+    "date": "2026-01-11",
+    "type": "personal",
+    "attendees": ["john.doe@company.com"],
+    "location": null,
+    "status": "out_of_office"
+  },
+  {
+    "id": "evt-005",
+    "title": "Client Demo Preparation",
+    "start_time": "02:00 PM",
+    "end_time": "03:00 PM",
+    "date": "2026-01-14",
+    "type": "meeting",
+    "attendees": [
+      "john.doe@company.com",
+      "sarah.designer@company.com",
+      "product.manager@company.com"
+    ],
+    "location": "Conference Room A",
+    "status": "confirmed"
+  },
+  {
+    "id": "evt-006",
+    "title": "Free Slot",
+    "start_time": "03:00 PM",
+    "end_time": "04:00 PM",
+    "date": "2026-01-12",
+    "type": "available",
+    "attendees": ["john.doe@company.com"],
+    "location": null,
+    "status": "available"
+  },
+  {
+    "id": "evt-007",
+    "title": "1-on-1 with Manager",
+    "start_time": "04:00 PM",
+    "end_time": "04:30 PM",
+    "date": "2026-01-16",
+    "type": "meeting",
+    "attendees": ["john.doe@company.com", "manager@company.com"],
+    "location": "Zoom",
+    "status": "confirmed"
+  },
+  {
+    "id": "evt-008",
+    "title": "Team Retrospective",
+    "start_time": "04:30 PM",
+    "end_time": "05:30 PM",
+    "date": "2026-01-20",
+    "type": "meeting",
+    "attendees": ["team@company.com"],
+    "location": "Teams",
+    "status": "confirmed"
+  }
+]
